@@ -1,6 +1,6 @@
 set(0, 'DefaultAxesFontName', 'Raleway');
 
-processor = AccelerometerDataProcessor('Martian_G_RPM_Data_Output.txt');
+processor = AccelerometerDataProcessor('Martian G RPM Data Output.txt');
 [meas_x_acc, meas_y_acc, meas_z_acc, time_in_hours] = processor.getData();
 
 %% Angular Position
